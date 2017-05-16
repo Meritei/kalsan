@@ -1,0 +1,28 @@
+Database Structure
+Added dipendancies:
+<--! for email sending -->
+composer require guzzlehttp/guzzle
+
+<--!for existing tables safe manipulation -->
+composer require doctrine/dbal
+
+<--! Entities Of The system -->
+Shops.
+Store.
+
+Shop
+ShopID
+Name
+Store ID
+Stock ID
+Foreign Key - 
+
+
+
+ <form method="get" action="{{ route('some.named.route') }}">
+{!! csrf_field() !!}
+<input type="text" name="title" value="{{ old('title') }}" />
+</form>
+
+
+
